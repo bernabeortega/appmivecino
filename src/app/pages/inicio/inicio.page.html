@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>inicio</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid fixed>
+        <ion-row>
+            <h3>Peliculas nuevas</h3>
+        </ion-row>
+    </ion-grid>
+
+    <app-slideshow-backdrop [ropa]="ropaReciente"></app-slideshow-backdrop>
+
+    <ion-grid fixed>
+        <ion-row>
+            <h3>Peliculas nuevas</h3>
+        </ion-row>
+    </ion-grid>
+
+    <app-slideshow-poster [ropa]="ropaReciente"></app-slideshow-poster>
+
+    <ion-grid fixed>
+        <ion-row>
+            <h3>Peliculas nuevas</h3>
+        </ion-row>
+    </ion-grid>
+
+    <app-slides-show-pares [ropa]="ropaPopular" (cargarMas)="cargarMas()"></app-slides-show-pares>
+</ion-content>

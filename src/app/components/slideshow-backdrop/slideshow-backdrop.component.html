@@ -1,0 +1,7 @@
+<ion-slides mode="ios" scrollbar="ios" [options]="slideOpts">
+    <ion-slide *ngFor="let product of ropa">
+        <ion-card>
+            <img class="tarjeta" [src]="product.imagen | images">
+        </ion-card>
+    </ion-slide>
+</ion-slides>

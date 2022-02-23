@@ -1,0 +1,55 @@
+<ion-content>
+    <div class="ion-text-end">
+        <ion-button (click)="close()" fill="clear" color="dark">
+            <ion-icon name="close" slot="start"></ion-icon>
+        </ion-button>
+    </div>
+    <div class="ion-padding">
+        <ion-list>
+            <ion-item *ngFor="let p of carrito" class="ion-text-wrap">
+                <ion-grid>
+                    <ion-row class="ion-align-items-center">
+                        <!-- <ion-col size="2" class="ion-align-self-center">
+                            <ion-button color="medium" fill="clear" (click)="bajarCantidad(p)">
+                                <ion-icon slot="icon-only" name="remove-circle"></ion-icon>
+                            </ion-button>
+                        </ion-col> -->
+                        <ion-col size="1" class="ion-align-self-center">
+                            {{p.cantidad}}
+                        </ion-col>
+                        <ion-col size="2" class="ion-align-self-center">
+                            <ion-button color="medium" fill="clear" (click)="aumentarItemCarrito(p)">
+                                <ion-icon slot="icon-only" name="add-circle"></ion-icon>
+                            </ion-button>
+                        </ion-col>
+                        <ion-col size="2" offset="5">
+                            <ion-button color="medium" fill="clear" (click)="removerItemCarrito(p)">
+                                <ion-icon slot="icon-only" name="close-circle"></ion-icon>
+                            </ion-button>
+                        </ion-col>
+                    </ion-row>
+                    <ion-row>
+                        <ion-col size="9">
+                            <b>{{p.descripcion}}</b>
+                        </ion-col>
+                        <ion-col size="3" class="ion-text-end">
+                            {{p.cantidad * p.precio_venta | currency:'USD'}}
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </ion-item>
+            <ion-item>
+                <ion-grid>
+                    <ion-row>
+                        <ion-col size="9">Total:</ion-col>
+                        <ion-col size="3" class="ion-tex-end">{{obtenerTotal() | currency: 'USD'}}</ion-col>
+                    </ion-row>
+                </ion-grid>
+            </ion-item>
+        </ion-list>
+
+        <ion-button (click)="checkout()" expand="full">
+            Checkout
+        </ion-button>
+    </div>
+</ion-content>

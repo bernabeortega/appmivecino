@@ -1,0 +1,46 @@
+{
+    "page": 1,
+    "total_resultados": 5,
+    "total_paginas": 1,
+    "resultados": [{
+            "codigo": 1,
+            "nombre": "Amazon Es`sentials Long-Sleeve Woven Blouse Dress-Shirts Mujer",
+            "descripcion": "Amazon Es`sentials Long-Sleeve Woven Blouse Dress-Shirts Mujer Amazon Es`sentials Long-Sleeve Woven Blouse Dress-Shirts MujerAmazon Es`sentials Long-Sleeve Woven Blouse Dress-Shirts MujerAmazon Es`sentials Long-Sleeve Woven Blouse Dress-Shirts Mujer",
+            "precio_venta": 500,
+            "cantidad": 1,
+            "imagen": "/1.jpg"
+        },
+        {
+            "codigo": 2,
+            "nombre": "Beaufident Blusas y Camisa Camisetas para Mujer de Manga Corta con Camisetas Cuello Redondo Gasa Tops Sueltas de Verano Camisetas básicas de túnica",
+            "descripcion": "Beaufident Blusas y Camisa Camisetas para Mujer de Manga Corta con Camisetas Cuello Redondo Gasa Tops Sueltas de Verano Camisetas básicas de túnica Beaufident Blusas y Camisa Camisetas para Mujer de Manga Corta con Camisetas Cuello Redondo Gasa Tops Sueltas de Verano Camisetas básicas de túnica Beaufident Blusas y Camisa Camisetas para Mujer de Manga Corta con Camisetas Cuello Redondo Gasa Tops Sueltas de Verano Camisetas básicas de túnica Beaufident Blusas y Camisa Camisetas para Mujer de Manga Corta con Camisetas Cuello Redondo Gasa Tops Sueltas de Verano Camisetas básicas de túnica",
+            "precio_venta": 1000,
+            "cantidad": 2,
+            "imagen": "/2.jpg"
+        },
+        {
+            "codigo": 3,
+            "nombre": "CHENSIYU Blusa para mujer, elegante, vintage, de encaje, para fiestas, blusas y túnicas, de manga larga, suave, para primavera",
+            "descripcion": "CHENSIYU Blusa para mujer, elegante, vintage, de encaje, para fiestas, blusas y túnicas, de manga larga, suave, para primavera CHENSIYU Blusa para mujer, elegante, vintage, de encaje, para fiestas, blusas y túnicas, de manga larga, suave, para primavera CHENSIYU Blusa para mujer, elegante, vintage, de encaje, para fiestas, blusas y túnicas, de manga larga, suave, para primavera CHENSIYU Blusa para mujer, elegante, vintage, de encaje, para fiestas, blusas y túnicas, de manga larga, suave, para primavera",
+            "precio_venta": 1500,
+            "cantidad": 3,
+            "imagen": "/3.jpg"
+        },
+        {
+            "codigo": 4,
+            "nombre": "Amazon Essentials Camisa de Popelina de Manga Larga de Pulsera de Corte clásico Mujer",
+            "descripcion": "Amazon Essentials Camisa de Popelina de Manga Larga de Pulsera de Corte clásico Mujer Amazon Essentials Camisa de Popelina de Manga Larga de Pulsera de Corte clásico Mujer Amazon Essentials Camisa de Popelina de Manga Larga de Pulsera de Corte clásico Mujer Amazon Essentials Camisa de Popelina de Manga Larga de Pulsera de Corte clásico Mujer",
+            "precio_venta": 2000,
+            "cantidad": 4,
+            "imagen": "/4.jpg"
+        },
+        {
+            "codigo": 5,
+            "nombre": "Amazon Essentials Camisa de Manga 3/4 con Botones Mujer",
+            "descripcion": "Amazon Essentials Camisa de Manga 3/4 con Botones Mujer Amazon Essentials Camisa de Manga 3/4 con Botones Mujer Amazon Essentials Camisa de Manga 3/4 con Botones Mujer Amazon Essentials Camisa de Manga 3/4 con Botones Mujer",
+            "precio_venta": 2500,
+            "cantidad": 5,
+            "imagen": "/5.jpg"
+        }
+    ]
+}

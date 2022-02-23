@@ -1,0 +1,7 @@
+<ion-slides mode="ios" pager="ios" scrollbar="ios" [options]="slideOpts">
+    <ion-slide *ngFor="let product of ropa">
+        <ion-card (click)="verDetalle(product.codigo)">
+            <img class="poster" [src]="product.imagen | images">
+        </ion-card>
+    </ion-slide>
+</ion-slides>

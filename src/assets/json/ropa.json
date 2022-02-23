@@ -1,0 +1,38 @@
+{
+    "data": [{
+            "codigo": 1,
+            "descripcion": "Amazon Es`sentials Long-Sleeve Woven Blouse Dress-Shirts Mujer",
+            "precio_venta": 500,
+            "cantidad": 1,
+            "imagen": "../../../assets/coleccion2021/1.jpg"
+        },
+        {
+            "codigo": 2,
+            "descripcion": "Beaufident Blusas y Camisa Camisetas para Mujer de Manga Corta con Camisetas Cuello Redondo Gasa Tops Sueltas de Verano Camisetas básicas de túnica",
+            "precio_venta": 1000,
+            "cantidad": 2,
+            "imagen": "../../../assets/coleccion2021/2.jpg"
+        },
+        {
+            "codigo": 3,
+            "descripcion": "CHENSIYU Blusa para mujer, elegante, vintage, de encaje, para fiestas, blusas y túnicas, de manga larga, suave, para primavera",
+            "precio_venta": 1500,
+            "cantidad": 3,
+            "imagen": "../../../assets/coleccion2021/3.jpg"
+        },
+        {
+            "codigo": 4,
+            "descripcion": "Amazon Essentials Camisa de Popelina de Manga Larga de Pulsera de Corte clásico Mujer",
+            "precio_venta": 2000,
+            "cantidad": 4,
+            "imagen": "../../../assets/coleccion2021/4.jpg"
+        },
+        {
+            "codigo": 5,
+            "descripcion": "Amazon Essentials Camisa de Manga 3/4 con Botones Mujer",
+            "precio_venta": 2500,
+            "cantidad": 5,
+            "imagen": "../../../assets/coleccion2021/5.jpg"
+        }
+    ]
+}
